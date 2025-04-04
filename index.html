@@ -4,20 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CatalinCod</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
 </head>
 <body>
-    <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-        <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-          </div>
+  <div class="container-fluid position-relative overflow-hidden p-0" style="height: 100vh;">
+ 
+    <video
+      id="heroVideo"
+      autoplay
+      muted
+      playsinline
+      class="position-absolute top-0 start-0 w-100 h-100"
+      style="object-fit: cover;"
+    >
+      <source src="./video1.mp4" type="video/mp4" />
+     
+      Your browser does not support HTML5 video.
+    </video>
+  
+    
+    <div
+      class="d-flex flex-column justify-content-center align-items-center position-relative text-center h-100"
+      style="z-index: 1;"
+    >
+   
+      <div class="col-lg-6 mx-auto">
+      
+      </div>
+    </div>
+  </div>
+    
+     <div class="my-5">
+      <div class="p-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+          <h1 class="text-body-emphasis">Hello , i'm a Web/Game/Hard Developer.</h1>
+          <img src="./myphoto.png" class="myphoto" alt="Photo with me">
+          <p class="col-lg-8 mx-auto lead">
+            I’m a passionate developer with experience in building and optimizing web applications (both front-end and back-end),
+             creating games, and exploring hardware projects using Arduino. 
+             My diverse skill set allows me to deliver creative, full-stack solutions tailored
+              to each project’s needs.
+          </p>
         </div>
       </div>
+    </div>
+    
+  
+  <div class="container">
+    <div>
+      <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          HTML
+          <span class="badge bg-success rounded-pill">Advanced</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          CSS
+          <span class="badge bg-info rounded-pill">Proficient</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          JavaScript
+          <span class="badge bg-success rounded-pill">Advanced</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          Python
+          <span class="badge bg-success rounded-pill">Advanced</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          Arduino IDE 
+          <span class="badge bg-info rounded-pill">Proficient</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          React
+          <span class="badge bg-warning rounded-pill">Intermediate</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          Node 
+          <span class="badge bg-warning rounded-pill">Intermediate</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          Unity
+          <span class="badge bg-danger rounded-pill">Begginner</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+    <div class="container">
+    <div class="carousel-wrapper">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./web.png" class="d-block w-100" alt="webdev">
+        </div>
+        <div class="carousel-item">
+          <img src="./gamedev.png" class="d-block w-100" alt="gamedev">
+        </div>
+        <div class="carousel-item">
+          <img src="./arduino.png" class="d-block w-100" alt="arduinodev">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+    </div>
+    <div class="container">
+
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
+            <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Caraus Catalin</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
+    </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
 </body>
 </html>
